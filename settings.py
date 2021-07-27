@@ -1,0 +1,11 @@
+REDIS_DB_HOST = '192.168.1.172'
+REDIS_DB_PORT = 6379
+REDIS_DB_INDEX = 0
+REDIS_DB_KEY_TTL = 20 * 60
+
+TASK_QUEUE_NAME = 'new_task_queue'
+AVAILABLE_STATUSES = ('Running', 'Error', 'Complete', 'Not-Found', 'Accepted')
+NUM_OF_WORKERS = 10
+
+WEB_SERVER_HOST = 'localhost'
+WEB_SERVER_PORT = 5000

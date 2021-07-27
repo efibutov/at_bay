@@ -1,0 +1,14 @@
+node_modules/
+dist/
+venv/
+.vscode/
+# Compiled Python bytecode
+*.py[cod]
+# Log files
+*.log
+__pycache__/
+.pytest_cache/
+# JetBrains IDE
+.idea/
+*.http
+sandbox.py
